@@ -22,7 +22,7 @@ const sentence = [
 const numbers = [3, 8, 44, -33, 20, 400, 6, 16, 2, 2, 2, 200];
 
 describe("sortByStringLength()", () => {
-  test("should sort the strings by size from smallest to largest", () => {
+  test.only("should sort the strings by size from smallest to largest", () => {
     const actual = sortByStringLength(sentence);
     expected = [
       "a",
